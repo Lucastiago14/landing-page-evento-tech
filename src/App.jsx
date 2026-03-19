@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Countdown from './components/Countdown';
 import Speakers from './components/Speakers';
+import Schedule from './components/Schedule';
 
 function App() {
   return (
@@ -46,10 +47,10 @@ function App() {
             </div>
           </div>
         </section>
-
-        {/* SEÇÃO 2: PALESTRANTES (Importada do componente Speakers) */}
+        
         <Speakers />
-
+        <Schedule /> 
+        
       </main>
     </div>
   );
